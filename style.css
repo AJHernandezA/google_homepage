@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1rem;
+    font-family: arial,sans-serif;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+nav{
+    display: block;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+/* input {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-image: initial;
+} */
+a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #222;
+}
+a:hover{
+    text-decoration: underline;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0.5em;
+    float: right;
+    right: 0;
+}
+.navbar ul li img{
+    border-radius: 50%;
+    
+}
+.navbar ul li{
+    margin: 0.5em;
+}
+.logo{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:17px ;
+}
+.logo .img-pos{
+    height: 100%;
+    margin-top: auto;
+    max-height: 92px;
+    position: relative;
+}
+.logo img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+.form{
+    width: 100%;
+    height: 45%;
+    display: block;
+}
+.form-cont{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+    width: 484px;
+    width: auto;
+    max-width: 584px
+}
+.search-bar{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    width: auto;
+}
+.search-into{
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+.search-logo{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+    color: #9aa0a7;
+}
+.search-info{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.input-info{
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+}
+.form .search-info input{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+}
+.mic-logo{
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -6px;
+    margin-left: 5px;
+    align-items: center;
+    flex-direction: row;
+}
+.mic-into{
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    width: 24px;
+    line-height: 44px;
+    color: #9aa0a7;
+}
+
+.form-btn{
+    padding-top: 18px;
+    top: 53px;
+    z-index: 0;
+    height: 70px;
+}
+.btn-flex{
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+.form-btn input{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    transition: border .5s;
+}
+.form-btn input:hover{
+    border: 1px solid #9aa0a7;
+}
+.language{
+    font-size: 0.8rem;
+    margin-top: 18px;
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+.language a{
+    text-decoration: none;
+    color: #5553c2;
+}
+.language a:hover{
+    border: none;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #f2f2f2;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+}
+footer .footer-left,.footer-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 5px 10px;
+}
+footer div ul li{
+    display: block;
+    padding: 15px;
+    white-space: nowrap
+}
+footer a{
+    color: #70757a;
+}
